@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3 {
+    color: green;
+    line-height: 1.6; /* Adjust line spacing */
+    margin-top: 1em;
+}
+#word {
+    width: 150px; /* Adjust width as needed */
+}
+#sentence {
+    width: 350px; /* Adjust width as needed */
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background: #007acc;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+section {
+    padding: 2rem;
+    margin: 1rem;
+}
+
+label {
+    display: block;
+    margin: 1rem 0 0.5rem;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background: #007acc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #007acc;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
